@@ -1,3 +1,5 @@
+// Create a function multiplyNumeric(obj) that multiplies all numeric property values of obj by 2.
+
 let menu = {
     width :200,
     height:300,
