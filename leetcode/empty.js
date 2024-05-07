@@ -6,4 +6,4 @@ var isEmpty = function(obj) {
     return true
 };
 
-console.log(isEmpty([1]))
+console.log(isEmpty([]))
