@@ -29,4 +29,4 @@ function payment(callback, num){
 
 payment(function (){
     console.log("Payment Successfull")
-}, 5000)
+}, 2000)
