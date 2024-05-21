@@ -10,7 +10,7 @@ function payment(callback, num){
 
         if(date_now-date_accessed > n){
             console.log(date_now)
-            console.log(Math.floor((date_now-date_accessed)/1000)+"s")
+            console.log(Math.floor((date_now-date_accessed))+"ms")
             callback()
             
         }
@@ -29,4 +29,4 @@ function payment(callback, num){
 
 payment(function (){
     console.log("Payment Successfull")
-}, 2000)
+}, 60000)
