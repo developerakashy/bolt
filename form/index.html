@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <form >
+        <label for="">First Name:</label>
+        <input type="text" name="firstName" required><br>
+        <label for="">Last Name:</label>
+        <input type="text" name="lastName" required><br>
+        <label for="">Email:</label>
+        <input type="email" name="email" required><br>
+        <label for="">Rate between 1 - 10</label>
+        <input type="number" name="rating" min="1" max="10" required>
+
+        <div>
+            <label for="">At what time did it happen:</label>
+            <input type="radio" value="Morning" name="time" id="rd1">
+            <label for="time">Morning</label>
+            <input type="radio" value="Afternoon" name="time" id="rd2">
+            <label for="time">Afternoon</label>
+            <input type="radio" value="Evening" name="time" id="rd3">
+            <label for="time">Evening</label>
+        </div>
+
+        <div>
+            <label >Emotions experienced:</label>
+            <input type="checkbox" value="Excited" name="check1" id="chk1" >
+            <label for="check1">Excited</label>
+            <input type="checkbox" value="humbled" name="check2" id="chk2">
+            <label for="check2">Humbled</label>
+            <input type="checkbox" value="Eleated" name="check3" id="chk3">
+            <label for="check3">Eleated</label>
+            <input type="checkbox" value="Loved" name="check4" id="chk4">
+            <label for="check4">Loved</label>
+            <input type="checkbox" value="Enthusiastic" name="check5" id="chk5">
+            <label for="check5">Enthusiastic</label>
+        </div>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+<script src="./form.js"></script>
+</html>
